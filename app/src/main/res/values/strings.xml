@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Week 6</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="textview2">TextView2</string>
+    <string name="which_drone_whould_you_like_to_select_from_the_dropdown">Which drone whould you like to select from the dropdown?</string>
+</resources>
