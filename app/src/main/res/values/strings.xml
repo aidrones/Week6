@@ -5,4 +5,5 @@
     <string name="enter_full_name">Enter Full Name</string>
     <string name="textview2">TextView2</string>
     <string name="which_drone_whould_you_like_to_select_from_the_dropdown">Which drone whould you like to select from the dropdown?</string>
+    <string name="back_to_main_menu">Back to Main Menu</string>
 </resources>

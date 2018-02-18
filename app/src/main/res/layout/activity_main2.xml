@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.usingspinnercontrol.week6.Main2Activity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/txtInstructions"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="329dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
+        android:text='1. Turn on the product. Then enter "Settings" and turn on Wi-Fi.                                                     2. Find a network Wi-Fi, click connection wait until connected.                                                        3. Open software, click play icon.'
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMainMenu" />
+
+    <Button
+        android:id="@+id/btnMainMenu"
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="22dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/back_to_main_menu"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtInstructions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
