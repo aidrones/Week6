@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         btnSettings.setOnClickListener(View.OnClickListener {
             //Intent used to send info between activities
             val intent = Intent(this, Main2Activity::class.java)
-            //
+
             startActivity(intent)
         })
 
